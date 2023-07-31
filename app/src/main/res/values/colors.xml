@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#DAD6D6</color>
+
+    <color name="yellow">#FFC107</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="image_grey">#c0c0c0</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="light_pink">#ffb6c1</color>
+    <color name="light_yellow">#FFFFE0</color>
+    <color name="grey_cool">#30374F</color>
+    <color name="clock_tint">#30374F</color>
+
+    <color name="description_color">#5D6B98</color>
+    <color name="title_color">#111322</color>
+    <color name="more_color">#B9C0D4</color>
+    <color name="line_color">#DCDFEA</color>
+    <color name="primary_color">#7F56D9</color>
+    <color name="primary700">#6941C6</color>
+    <color name="grey_cool700">#7D89B0</color>
+    <color name="grey_cool900">#111322</color>
+    <color name="grey_cool400">#7D89B0</color>
+    <color name="grey4">#BDBDBD</color>
+    <color name="type_something">
+        #9A9A9A</color>
+
+
+
+
+</resources>

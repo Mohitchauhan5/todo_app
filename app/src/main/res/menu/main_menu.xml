@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Notes"
+        android:id="@+id/notes"
+        android:icon="@drawable/menu"/>
+    <item android:title="Add"
+
+        android:id="@+id/add"
+        />
+    <item android:title="Search"
+        android:id="@+id/profile"
+        android:icon="@drawable/search"/>
+</menu>

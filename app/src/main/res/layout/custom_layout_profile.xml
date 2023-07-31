@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:orientation="horizontal"
+      >
+      <FrameLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          >
+
+          <de.hdodenhof.circleimageview.CircleImageView
+              android:id="@+id/image1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:src="@drawable/profile_image"
+              android:layout_marginStart="10dp"
+              app:civ_border_width="0.2dp"
+              app:civ_border_color="@color/grey_cool400"
+
+              />
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/transparent"
+              android:id="@+id/bg_image1"
+              android:visibility="invisible"
+              />
+
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+
+          android:layout_weight="1"
+          >
+          <de.hdodenhof.circleimageview.CircleImageView
+              android:id="@+id/image2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:src="@drawable/image2"
+              android:layout_marginStart="10dp"
+              app:civ_border_width="0.2dp"
+              app:civ_border_color="@color/grey_cool400"
+
+              />
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/transparent"
+              android:id="@+id/bg_image2"
+              android:visibility="invisible"
+              />
+
+      </FrameLayout>
+  </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="20"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:id="@+id/profile_info_save_button"
+        />
+
+
+
+</LinearLayout>

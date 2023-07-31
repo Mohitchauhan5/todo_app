@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <CheckBox
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/checkbox"
+            android:layout_gravity="center_vertical"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/grey_cool"
+                android:id="@+id/complete_line"
+                android:layout_marginEnd="50dp"
+                />
+            <TextView
+                android:id="@+id/check_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/it_is_a_long_established_fact_that_a_reader_will_be_distracted_by_the_readable_content_of_a_page_when_looking_at_its_layout"
+                android:textColor="@color/black"
+                android:layout_marginEnd="50dp"
+                />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/bin"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/image_delete_checklist"
+                />
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

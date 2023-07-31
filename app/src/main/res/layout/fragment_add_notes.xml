@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddNotesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            >
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/image_back_add_notes"
+                >
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/back"
+                    android:layout_marginStart="20dp"
+                    app:tint="@color/primary_color"
+
+                    />
+            </FrameLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="end"
+                >
+
+
+                <ImageView
+                    android:visibility="invisible"
+
+                    android:id="@+id/edt_status"
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:src="@drawable/edit"
+                    android:layout_marginEnd="20dp"
+                    app:tint="@color/primary_color"
+
+
+                    />
+
+                <ImageView
+                    android:id="@+id/btn_save"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:src="@drawable/save"
+                    android:layout_marginEnd="20dp"
+                    app:tint="@color/primary_color"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+
+        <EditText
+            android:id="@+id/edt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:hint="Add Title"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColorHint="@color/grey4"
+            android:textSize="25sp"
+
+            />
+
+        <EditText
+
+            android:layout_marginEnd="20dp"
+
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="35dp"
+                android:hint="Type something..."
+                android:textColorHint="@color/type_something"
+                android:id="@+id/edt_description"
+                android:inputType="textMultiLine"
+                android:background="@null"
+                />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
